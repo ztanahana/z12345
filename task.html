@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>Front-End LAB</title>
+	<style>
+		body {font-size: 100px; text-align: center;}
+		.center {display: inline-block;}
+		p {font-size: 30px; text-align: center;}
+		section {float: left;}
+		.resultSection {font-size: 0;}
+		.workSection {width: 4em; height: 4em; margin: 100px 0 0 100px; line-height: 0; border: 3px dashed orange;}
+
+		.workSection div {}
+
+		.workSection div:nth-child(3n) {background-color: rgba(255,0,0,.7);}
+		.workSection div:nth-child(3n+1) {background-color: rgba(0,255,0,.7);}
+		.workSection div:nth-child(3n+2) {background-color: rgba(0,0,255,.7);}
+
+		.workSection div:nth-child(2n) {box-shadow: 0 0 3em #333 inset;}
+		.workSection div:nth-child(2n+1) {box-shadow: 0 0 3em #ccc inset;}
+
+		.l {float: left; height: 1em; width: 1em;}
+                .l2 {float: left; height: 2em; width: 1em;}
+                .l3 {float: left; height: 1em; width: 2em;}
+
+                .r2 {float: right; height: 1em; width: 2em;}
+		.r3 {float: right; height: 2em; width: 1em;}
+		.r {float: right; height: 1em; width: 1em;}
+
+	</style>
+</head>
+<body>
+	<div class="center">
+		<section class="workSection">
+			<div class="l"></div>
+			<div class="r2"></div>
+			<div class="l"></div>
+
+			<div class="l2"></div>
+                        <div class="l3"></div>
+			<div class="r"></div>
+			
+                        <div class="r3"></div>
+			<div class="l"></div>
+			<div class="r"></div>
+
+			<div class="r"></div>
+                        <div class="l"></div>
+			<div class="l"></div>			
+		</section>
+	</div>
+
+</body></html>
