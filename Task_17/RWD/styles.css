@@ -1,0 +1,422 @@
+/* Changing values */
+@media (max-width: 600px) { 
+    #hgd{
+        font-size: 30px;
+    }
+    .imgFU{
+        display: none;
+    }
+    .getCopy{
+        width: 100px;
+        height: 25px;
+        font: 8px 'PT Sans';
+        margin: 30px 30px;
+    }   
+    .imgGroups{
+        display: none;
+    }
+    .imgGroupsLeft{
+        display: none;
+    }
+    .imgArticle{
+        display: none;
+    }
+    .imgNews{
+        display: none;
+    }
+}
+@media (max-width: 1024px) and (min-width: 601px) { 
+    #hgd{
+        font-size: 40px;
+    }
+    .getCopy{
+        width: 237px;
+        height: 50px;
+        font: 15px 'PT Sans';
+        margin: 70px 30px;
+    }
+    .imgGroups{
+        display: block;
+    }
+    .imgGroupsLeft{
+        display: block;
+        align-content: left;
+    }
+    .imgArticle{
+        display: block;
+        width: 80%;
+    }
+    .imgNews{
+        display: block;
+        width: 60%;
+    }
+}
+@media (max-width: 1600px) and (min-width: 1024px) { 
+    #hgd{
+        font-size: 53px;
+    }
+    .getCopy{
+        width: 237px;
+        height: 50px;
+        font: 15px 'PT Sans';
+        margin: 70px 30px;
+    }
+    .imgGroups{
+        display: block;
+    }   
+    .imgGroupsLeft{
+        display: block;
+        align-content: left;
+    }
+    .imgArticle{
+        display: block;
+        width: 80%;
+    } 
+    .imgNews{
+        display: block;
+        width: 60%;
+    }
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'Belinda'; 
+    src: 
+        local('Belinda'),
+        url('fonts/belinda/Belinda Script.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'Nexa'; 
+    src: 
+        local('Nexa'),
+        url('fonts/nexa/Nexa\ W01\ Regular.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'Cabin'; 
+    src: 
+        local('Cabin'),
+        url('fonts/cabin/Cabin-Regular.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'Open Sans'; 
+    src: 
+        local('Open Sans'),
+        url('fonts/open-sans/open-sans.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'Ubuntu'; 
+    src: 
+        local('Ubuntu'),
+        url('fonts/ubuntu/ubuntu.woff') format('woff'); 
+}
+@font-face {
+    font-family: 'PT Sans'; 
+    src: 
+        local('PT Sans'),
+        url('fonts/pt-sans/pt-sans.woff') format('woff'); 
+}
+/* Header container */
+.header{
+    background-image: url(img/Header_bcknd.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Elena */
+#elena{
+    font: 52px 'Belinda';
+    color: white;
+}
+/* HOME SERVICES FEATURES CONTACT */
+nav a {
+    text-decoration: none;   
+    color: white;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	list-style-position: inside;
+    font: 13px 'Open Sans';
+    font-weight: 600;
+}
+.top-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+/* HAVE A GOOD DAY */
+#hgd{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    color: white;
+    padding: 30px 30px;
+}
+/* JUST FOR YOU ON THEMEFOREST */
+#just{
+    font: 15px 'PT Sans';
+    font-weight: bold;
+    color: white;
+    padding: 10px 30px;
+}
+.imgFU{
+    vertical-align: middle;
+}
+/* GET YOUR COPY NOW */
+.getCopy {
+    background: url(img/RRect_big_green.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+/* -------------------------------------------*/
+/* Body container Groups*/
+#wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #eeeeef;  /* Gray */
+    padding: 30px;
+}
+.divGroups{
+    display: block;
+	padding: 10px 30px;
+    margin: 0;
+    font: 16px 'PT Sans';
+    font-weight: bold;
+    text-align: center;
+}
+.divGroups a {
+    text-decoration: none;
+    color: #384048;
+}
+.imgGroups{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px;
+}
+.Lorem{
+    font: 14px 'PT Sans';
+    font-weight: normal;
+    text-align: center;
+    color: #787b80;
+}
+.LoremLeft{
+    font: 14px 'PT Sans';
+    font-weight: normal;
+    text-align: left;
+    color: #787b80;
+    padding: 0px 30px;
+}
+.LoremFS{
+    font: 14px 'PT Sans';
+    font-weight: normal;
+    text-align: left;
+    color: #787b80;
+    padding: 0px;
+}
+/* Body container Articles */
+.LoremArticle{
+    font: 14px 'PT Sans';
+    font-weight: normal;
+    text-align: left;
+    color: #787b80;
+    padding: 0px 60px;
+}
+.divArticle{
+    padding: 0px 30px;
+    margin: 0;
+    font: 18px 'PT Sans';
+    font-weight: bold;
+    text-align: center;
+    color: #384048;
+    width: 300px;
+}
+.imgArticle{
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 10px 10px;
+}
+#wrapperA{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f5f5f5;  /* white */
+    padding: 30px;
+}
+/* Read more */
+.readMore {
+    background: url(img/RRect_small_green.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+    cursor: pointer;
+    border: none;
+    font-weight: normal;
+    width: 100px;
+    height: 35px;
+    font: 14px 'PT Sans';
+}
+.readMoreD {
+    text-align: left;
+    padding: 20px 25px;
+}
+
+/* FULLY SUPPORTED TEMPLATE */
+#wrapperFS{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    background-color: #eeeeef;  /* Gray */
+    padding: 30px;
+}
+#divFS{
+    display: block;
+	margin: 0;
+    font: 18px 'PT Sans';
+    font-weight: bold;
+    text-align: left;
+    color: #384048; 
+    padding: 10px 30px;
+}
+.imgGroupsLeft{
+    padding: 10px 0px;
+}
+/* Read more gray*/
+.readMoreGr {
+    background: url(img/RRect_gray.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+    cursor: pointer;
+    border: none;
+    font-weight: normal;
+    width: 100px;
+    height: 35px;
+    font: 14px 'PT Sans'; 
+}
+.readMoreGrD {
+    text-align: left;
+    padding: 20px 0px;
+}
+/* Body container 3 Articles */
+.imgNews{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+}
+section div a{
+    text-decoration: none;   
+    color: #50c3af;
+    font: 14px 'PT Sans';
+    font-weight: normal;
+}
+/* Check this out */
+#check{
+    text-align: left;
+    padding: 0px 60px;
+}
+#divCheck{
+    display: block;
+	padding: 0;
+    margin: 0;
+    font: 18px 'PT Sans';
+    font-weight: bold;
+    text-align: left;
+    color: #384048; 
+    width: 350px;
+}
+#wrapperCheck{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #eeeeef;  /* Gray */
+    padding: 30px;
+}
+/* Body container News */
+.readMoreDL {
+    text-align: left;
+    margin: 0;
+    padding: 20px 0px;
+}
+.divTheme{
+    display: block;
+	padding: 0;
+    margin: 0;
+    font: 18px 'PT Sans';
+    font-weight: bold;
+    text-align: left;
+    color: #384048;
+    width: 400px;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #50c3af;  /* Green */
+    padding: 30px;
+    font: 15px 'PT Sans';
+    font-weight: bold;
+    color: white;
+}
+/* Footer THIS TEMPLATE WAS FEATURED ON */
+.footer{
+    text-align: center;
+}
+#tech{
+    font: 26px 'Belinda';
+    font-weight: normal;
+}
+#promail{
+    font: 26px 'Nexa';
+    font-weight: normal;
+}
+#mashable{
+    font: 26px 'Cabin';
+    font-weight: normal;
+}
+#atlaspix{
+    font: 26px 'Nexa';
+    font-weight: bold;
+}
+/* Footer Elenea © copyright 2013 - Unsubscribe here*/
+#footerL {
+    background-color: #eeeeef;
+    font-size: 0;
+    line-height: 0;
+    text-align: justify;
+    padding: 10px;
+}
+#footerL:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
+#links {
+    font-size: 14px;
+    line-height: normal;
+    display: inline-block;
+    padding: 10px;
+}
+#copy {
+    font: 13px 'PT Sans';
+    font-weight: normal;
+    color: #384048;
+    line-height: normal;
+    display: inline-block;
+    padding: 10px;
+}
